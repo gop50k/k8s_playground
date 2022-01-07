@@ -1,4 +1,5 @@
 FROM alpine
+
 # Step2: Download and install dependency
 RUN apk add --update redis
 
